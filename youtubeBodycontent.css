@@ -1,0 +1,125 @@
+.content{
+    width: calc(100vw - 240px);
+    
+}
+
+.chips-wrapper{
+    overflow-x: scroll;
+    background-color:#121111;
+    display: flex;
+    padding-left: 14px;
+    border-top: 1px solid rgba(223, 10, 10, 0.1);
+    border-bottom: 1px solid rgba(255,255,255, 0.1);
+    scrollbar-color: #121111 transparent ;
+   
+}
+
+.chips-wrapper:hover{
+    scrollbar-color: #121111 transparent;
+    scrollbar-width: hidden;
+}
+
+
+.chip{ 
+    text-transform: capitalize;
+    margin:12px 6px;
+    background-color: #373737;
+    border:1px solid rgba(255,255,255, 0.1);
+    border-radius: 5px ;
+    color: #fff;
+    transition: .5s;
+    padding-top: 5px ;
+    width:fit-content;
+   padding-right: 5px ;
+   text-transform:none ;
+
+}
+
+.chip p{
+    font-size: 10px ;
+  
+}
+
+.chip:hover{
+    background: #4d4d4d;
+}
+
+/* video container*/
+
+.video-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 18px;
+    padding: 20px 25px;
+    background-color: #121111;
+    overflow-y: scroll;
+    height: calc(100vh - 140px );
+}
+
+.channel-logo{
+    position: relative;
+    min-width:35px ;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.video-box{
+    position: relative;
+    width: auto;
+    height: 145px ;
+    display: block;
+}
+
+.video-content-cover{
+    position: relative;
+    transition: .5s;
+    transition-delay: .05s;
+}
+.video-content{
+    margin-bottom: 25px;
+    position: relative;
+    transition: .5s;
+    width: 100%;
+   
+}
+
+.video-details{
+    display: flex;
+    color: #fff;
+    padding: 12px ;
+}
+
+.detail{
+    margin-left: 12px ;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.titel{
+    font-size: 13px ;
+}
+
+.channel-name{
+    font-size: 10px;
+    margin-top: 10px ;
+    color: #aaa;
+}
+
+.video-content img{
+    border-radius: 15px;
+}
+
+.views-upload{
+    display: flex;
+    font-size: 10px;
+    color: #aaa;
+}
+
+.upload{
+    margin-left: 5px;
+
+}
+
+.video-content img:hover{
+   border-radius: 0;
+}
